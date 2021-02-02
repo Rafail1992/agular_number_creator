@@ -1,0 +1,41 @@
+#main{
+    margin-top: 50px;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow:0px 0px 15px 5px black;
+    background-color: #1976d2;
+    color: whitesmoke;
+    width:400px;
+
+
+}
+button{
+    background-color: crimson;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bolder;
+    color: whitesmoke;
+    border-radius: 12px;
+    margin: 5px;
+}
+
+label{
+    font-size: 16px;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+#result {
+    border: 5px solid crimson;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bolder;
+    color:#1976d2;
+    margin-bottom: 25px;
+    background-color:whitesmoke;
+}
+
+#buttons{
+    padding-left: 50px;
+    
+}
