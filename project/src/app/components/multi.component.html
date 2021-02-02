@@ -1,0 +1,30 @@
+<!--Main div-->
+<div id="main">
+    <!--Print result div-->
+    <div id="result">
+        <h3>{{num1}} * {{num2}} * {{num3}} = {{ginomeno}}</h3>
+    </div>
+    <!--Calculator buttons division-->
+    <div id = 'buttons'>
+        <!--Change first number-->
+        <label>Number 1: </label>
+        <button (click) = "num1Up()">Increace</button>
+        <button (click) = "num1Down()">Decreace</button>
+        <br>
+        <!--Change the second number-->
+        <label>Number 2: </label>
+        <button (click) = "num2Up()">Increace</button>
+        <button (click) = "num2Down()">Decreace</button>
+        <br>
+        <!--Change the third number-->
+        <label>Number 3: </label>
+        <button (click) = "num3Up()">Increace</button>
+        <button (click) = "num3Down()">Decreace</button>
+    </div>
+    <br>
+    <!--Calculator button-->
+    <button (click) = "result()">Multi</button>
+</div>
+
+
+
