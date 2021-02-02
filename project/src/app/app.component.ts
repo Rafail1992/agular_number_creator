@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'numcreator';
+  title = 'Angular Number Creator';
+  creator = "Rafail1992";
 }
